@@ -27,11 +27,14 @@ export default function PriceSecret() {
     <section className="bg-brand-cream py-12">
       <div className="mx-auto max-w-5xl px-4">
         <h2 className="mx-auto mb-2 max-w-3xl text-center text-xl font-bold md:text-2xl">
-          <span className="text-brand-orange">どうして？</span>
+          <span className="text-brand-orange">もちろん、安さも。</span>
         </h2>
-        <h2 className="mb-8 text-center text-2xl font-bold md:text-3xl">
-          一括見積もりで引越し料金が安くなる秘密！？
+        <h2 className="mb-3 text-center text-2xl font-bold md:text-3xl">
+          厳選比較で引越し料金が安くなる仕組み
         </h2>
+        <p className="mx-auto mb-8 max-w-2xl text-center text-sm text-gray-600 md:text-base">
+          電話の嵐を防ぐだけじゃありません。比較するからこそ、料金もしっかり下がります。
+        </p>
 
         <div className="mb-6 rounded-2xl bg-white p-5 shadow-soft md:p-6">
           <p className="text-sm leading-relaxed text-gray-700 md:text-base">
@@ -88,6 +91,9 @@ export default function PriceSecret() {
         <p className="mt-6 text-center text-sm font-bold md:text-base">
           このように…複数の業者を比較すると
           <span className="rounded bg-yellow-200 px-2">引越し料金が安くなる！</span>
+        </p>
+        <p className="mt-2 text-center text-[10px] text-gray-400">
+          ※ 上記の料金はすべて参考事例です。実際の料金は荷物量・時期・距離・階数などの条件により異なります。
         </p>
       </div>
     </section>

@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import NoSpamCall from "@/components/NoSpamCall";
 import Campaign from "@/components/Campaign";
 import Reasons from "@/components/Reasons";
 import Steps from "@/components/Steps";
@@ -11,6 +12,7 @@ import Faq from "@/components/Faq";
 import FinalCta from "@/components/FinalCta";
 import Footer from "@/components/Footer";
 import StickyMobileCta from "@/components/StickyMobileCta";
+import LineFloatButton from "@/components/LineFloatButton";
 
 export default function Home() {
   return (
@@ -19,8 +21,9 @@ export default function Home() {
       <div id="quote-form">
         <Hero />
       </div>
-      <Campaign />
+      <NoSpamCall />
       <Reasons />
+      <Campaign />
       <Steps />
       <PriceSecret />
       <Achievement />
@@ -30,6 +33,7 @@ export default function Home() {
       <FinalCta />
       <Footer />
       <StickyMobileCta />
+      <LineFloatButton />
     </main>
   );
 }

@@ -55,17 +55,17 @@ export default function Footer() {
             <p className="text-xs">9:00〜21:00（年中無休）</p>
             <ul className="mt-3 space-y-1 text-xs">
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="/company" className="hover:text-white">
                   運営会社
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="/policy" className="hover:text-white">
                   プライバシーポリシー
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="/term" className="hover:text-white">
                   利用規約
                 </a>
               </li>

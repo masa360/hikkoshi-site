@@ -15,12 +15,20 @@ export default function Header() {
             </p>
           </div>
         </div>
-        <a
-          href="tel:0120-000-000"
-          className="hidden items-center gap-2 rounded-full border border-brand-green px-4 py-2 text-sm font-bold text-brand-green md:flex"
-        >
-          📞 0120-000-000
-        </a>
+        <div className="flex items-center gap-2">
+          <a
+            href="#quote-form"
+            className="flex items-center gap-1 rounded-full bg-brand-orange px-4 py-2 text-xs font-bold text-white shadow-[0_3px_0_#c84a00] md:hidden"
+          >
+            無料見積もり ▶
+          </a>
+          <a
+            href="tel:0120-000-000"
+            className="hidden items-center gap-2 rounded-full border border-brand-green px-4 py-2 text-sm font-bold text-brand-green md:flex"
+          >
+            📞 0120-000-000
+          </a>
+        </div>
       </div>
     </header>
   );
